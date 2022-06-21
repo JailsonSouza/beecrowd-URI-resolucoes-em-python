@@ -1,0 +1,8 @@
+a,b,c = input().split(" ")
+a = int(a)
+b = int(b)
+c = int(c)
+mab = float((a+b+abs(a-b))/2)
+mabc = float((mab+c+abs(mab-c))/2)
+mabc = int(mabc)
+print(mabc,'eh o maior')
