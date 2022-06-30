@@ -1,20 +1,20 @@
 ddd = int(input())
 
 if(ddd == 61):
-    print('Brasilia')
+  print('Brasilia')
 elif(ddd == 71):
-    print('Salvador')
+  print('Salvador')
 elif(ddd == 11):
-    print('Sao Paulo')
+  print('Sao Paulo')
 elif(ddd == 21):
-    print('Rio de Janeiro')
+  print('Rio de Janeiro')
 elif(ddd == 32):
-    print('Juiz de Fora')
+  print('Juiz de Fora')
 elif(ddd == 19):
-    print('Campinas')
+  print('Campinas')
 elif(ddd == 27):
-    print('Vitoria')
+  print('Vitoria')
 elif(ddd == 31):
-    print('Belo Horizonte')
+  print('Belo Horizonte')
 else:
-    print('DDD nao cadastrado')
+  print('DDD nao cadastrado')

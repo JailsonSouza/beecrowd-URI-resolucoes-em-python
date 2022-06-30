@@ -1,7 +1,5 @@
 a,b,c = input().split(" ")
-a = float(a)
-b = float(b)
-c = float(c)
+a, b, c = float(a), float(b), float(c)
 tri = ((a*c)/2)
 cir = (3.14159*(c**2))
 tra = (((a+b)*c)/2)

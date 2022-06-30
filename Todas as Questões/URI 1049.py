@@ -3,18 +3,18 @@ n2 = input()
 n3 = input()
 
 if((n1=='vertebrado')and(n2=='ave')and(n3=='carnivoro')):
-    print('aguia')
+  print('aguia')
 if((n1=='vertebrado')and(n2=='ave')and(n3=='onivoro')):
-    print('pomba')
+  print('pomba')
 if((n1=='vertebrado')and(n2=='mamifero')and(n3=='onivoro')):
-    print('homem')
+  print('homem')
 if((n1=='vertebrado')and(n2=='mamifero')and(n3=='herbivoro')):
-    print('vaca')
+  print('vaca')
 if((n1=='invertebrado')and(n2=='inseto')and(n3=='hematofago')):
-    print('pulga')
+  print('pulga')
 if((n1=='invertebrado')and(n2=='inseto')and(n3=='herbivoro')):
-    print('lagarta')
+  print('lagarta')
 if((n1=='invertebrado')and(n2=='anelideo')and(n3=='hematofago')):
-    print('sanguessuga')
+  print('sanguessuga')
 if((n1=='invertebrado')and(n2=='anelideo')and(n3=='onivoro')):
-    print('minhoca')
+  print('minhoca')

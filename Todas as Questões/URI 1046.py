@@ -1,6 +1,5 @@
 hi, hf = input().split(" ")
-hi = int(hi)
-hf = int(hf)
+hi, hf = int(hi), int(hf)
 if (hi > hf):
   print('O JOGO DUROU',((24 - hi) + hf),'HORA(S)')
 elif (hi < hf):

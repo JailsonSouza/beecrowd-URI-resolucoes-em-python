@@ -1,17 +1,16 @@
-n1,n2 = input().split(" ")
-n1 = float(n1)
-n2 = float(n2)
+n1, n2 = input().split(" ")
+n1, n2 = float(n1), float(n2)
 if((n1 == 0) and (n2 == 0)):
-    print('Origem')
+  print('Origem')
 elif((n1 > 0) and (n2 > 0)):
-    print('Q1')
+  print('Q1')
 elif((n1 < 0) and (n2 > 0)):
-    print('Q2')
+  print('Q2')
 elif((n1 < 0) and (n2 < 0)):
-    print('Q3')
+  print('Q3')
 elif((n1 > 0) and (n2 < 0)):
-    print('Q4')
+  print('Q4')
 elif((n1 == 0) and ((n2 > 0) or (n2 < 0))):
-    print('Eixo Y')
+  print('Eixo Y')
 elif(((n1 > 0) or (n1 < 0)) and (n2 == 0)):
-    print('Eixo X')
+  print('Eixo X')

@@ -4,5 +4,5 @@ ult = len(valores) -1
 n = int(valores[ult])
 soma = 0
 for c in range(0,n):
-    soma += a + c
+  soma += a + c
 print(soma)

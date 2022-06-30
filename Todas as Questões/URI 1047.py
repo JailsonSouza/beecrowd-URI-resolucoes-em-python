@@ -1,8 +1,5 @@
 hi,mi,hf,mf = input().split(" ")
-hi = int(hi)
-hf = int(hf)
-mi = int(mi)
-mf = int(mf)
+hi, mi, hf, mf = int(hi), int(mi), int(hf), int(mf)
 hr = (24)
 he = (0)
 if ((hi > hf)and(mi == mf)):

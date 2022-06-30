@@ -1,25 +1,25 @@
 n = int(input())
 if(n == 1):
-    print('January')
+  print('January')
 elif(n == 2):
-    print('February')
+  print('February')
 elif(n == 3):
-    print('March')
+  print('March')
 elif(n == 4):
-    print('April')
+  print('April')
 elif(n == 5):
-    print('May')
+  print('May')
 elif(n == 6):
-    print('June')
+  print('June')
 elif(n == 7):
-    print('July')
+  print('July')
 elif(n == 8):
-    print('August')
+  print('August')
 elif(n == 9):
-    print('September')
+  print('September')
 elif(n == 10):
-    print('October')
+  print('October')
 elif(n == 11):
-    print('November')
+  print('November')
 elif(n == 12):
-    print('December')
+  print('December')

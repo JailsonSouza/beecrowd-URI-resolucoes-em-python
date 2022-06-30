@@ -1,5 +1,5 @@
-vi = (0)
+vi = 0
 x = int(input())
 for i in range(x+1):
-    if(i % 2 != 0):
-        print(i)
+  if(i % 2 != 0):
+    print(i)
